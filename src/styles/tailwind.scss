@@ -1,0 +1,39 @@
+// @import "tailwindcss/preflight";
+@tailwind utilities;
+
+@font-face {
+  font-family: "Anton";
+  src: url("../assets/fonts/Anton-Regular.ttf") format("truetype");
+  font-weight: normal; // Optional: specify font weight
+  font-style: normal;  // Optional: specify font style
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../assets/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: normal; // Optional: specify font weight
+  font-style: normal;  // Optional: specify font style
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../assets/fonts/Gilroy-ExtraBold.otf") format("truetype");
+  font-weight: normal; // Optional: specify font weight
+  font-style: normal;  // Optional: specify font style
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: normal; // Optional: specify font weight
+  font-style: normal;  // Optional: specify font style
+}
+@font-face {
+  font-family: "MyriadPro-Regular2";
+  src: url("../assets/fonts/MyriadPro-Regular2.otf") format("truetype");
+  font-weight: normal; // Optional: specify font weight
+  font-style: normal;  // Optional: specify font style
+}
+
+body {
+  font-family: "Anton", sans-serif;
+}
+
+@import "./home.scss";
