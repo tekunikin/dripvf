@@ -59,12 +59,13 @@ body {
   }
   .white-text {
     color: #fff;
-    font-family: "Gilroy-Bold";
+    font-family: "Gilroy-SemiBold";
     &.small {
       font-size: 50px;
     }
   }
   .yellow-text {
+    font-family: 'Anton';
     color: #f9c90d;
     text-transform: uppercase;
     position: relative;
@@ -237,7 +238,7 @@ body {
 
 .bg-yellow {
   background-color: #f9c90d;
-  padding: 100px 50px 0px;
+  padding: 100px 50px 30px;
   position: relative;
   background-image: url('../assets/background.png'); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the entire div */
@@ -419,7 +420,7 @@ body {
 
 .bg-pink{
   background-color: #f1216f;
-  padding: 50px 50px 200px;
+  padding: 100px 50px 300px;
   background-image: url('../assets/background.png'); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the entire div */
   background-position: center; /* Centers the image */
@@ -486,7 +487,7 @@ body {
     }
   }
   @media (max-width: 480px) {
-    padding: 50px 0px;
+    padding: 50px 0px 80px;
   }
 }
 

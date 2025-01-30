@@ -8,7 +8,7 @@ body {
     position: absolute;
     transform: rotate(180deg);
     width: 490px;
-    top: 37%;
+    top: 35%;
     left: -73px;
     z-index: 99;
     height: 1330px;
@@ -250,7 +250,7 @@ body {
 
 .bg-yellow {
   background-color: #f9c90d;
-  padding: 100px 50px 0px;
+  padding: 100px 50px 50px;
   position: relative;
   background-image: url('../assets/background.png'); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the entire div */
@@ -432,7 +432,7 @@ body {
 
 .bg-pink{
   background-color: #f1216f;
-  padding: 50px 50px 200px;
+  padding: 100px 50px 300px;
   background-image: url('../assets/background.png'); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the entire div */
   background-position: center; /* Centers the image */
