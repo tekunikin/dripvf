@@ -434,7 +434,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+
   & .columns-2md {
     width: 40%;
     display: flex;
@@ -442,6 +442,9 @@ body {
     align-items: center;
     padding: 20px;
     font-family: "Gilroy-SemiBold";
+    &:first-child img {
+      width: 100px;
+    }
     & img {
       width: 127px;
       @media (max-width: 480px) {
