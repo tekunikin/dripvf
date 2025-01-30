@@ -471,11 +471,17 @@ body {
       font-size: 50px;
     }
     & p {
+      position: relative;
       font-size: 60px;
       margin: 0px 5px;
       @media (max-width: 480px) {
         font-size: 15px;
       }
+    }
+    & img {
+      position: absolute;
+      right: 18%;
+      bottom: -40px;
     }
     & span {
       @media (max-width: 480px) {

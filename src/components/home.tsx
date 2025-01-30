@@ -25,6 +25,7 @@ import swirl from '../assets/swirl.png';
 import rocket from '../assets/rocket.png';
 import jacket from '../assets/jacket.png';
 import bigstar from '../assets/big-star.png';
+import yellowLines from '../assets/yellow-lines.png';
 
 const Home: React.FC = () => {
   return (
@@ -120,7 +121,7 @@ const Home: React.FC = () => {
           </div>
           <div className="columns-1md">
             <span>Travel & food included</span>
-            <p>Limited spots available! Don't miss this opportunity</p>
+            <p>Limited spots available! Don't miss this opportunity<img src={yellowLines} alt="yellow-underline" className='yellow-underline' /></p>
           </div>
         </div>
         {/* Footer Section */}

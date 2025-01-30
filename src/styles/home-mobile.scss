@@ -463,11 +463,18 @@ body {
     text-align: center;
     font-family: "Gilroy-SemiBold";
     & p {
+      position: relative;
       font-size: 20px;
       margin: 0px 5px;
       @media (max-width: 480px) {
         font-size: 15px;
       }
+    }
+    & img {
+      position: absolute;
+      right: 9%;
+      bottom: -12px;
+      width: 149px;
     }
     & span {
       @media (max-width: 480px) {
